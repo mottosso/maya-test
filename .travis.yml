@@ -13,4 +13,8 @@ services:
   - docker
 
 script:
-  - docker run --rm -v $(pwd):/repo --entrypoint mayapy mottosso/maya:${VERSION} run.py
+  - docker run --rm 
+    -v $(pwd):/repo
+    --workdir=/repo
+    --entrypoint mayapy
+    mottosso/maya:${VERSION} run.py
