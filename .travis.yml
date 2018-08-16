@@ -1,9 +1,35 @@
 matrix:
   include:
   - env:
+    - VERSION=2013sp1
+  - env:
+    - VERSION=2013sp2
+  - env:
+    - VERSION=2014sp1
+  - env:
+    - VERSION=2014sp2
+  - env:
+    - VERSION=2014sp3
+  - env:
+    - VERSION=2014sp4
+  - env:
+    - VERSION=2015sp1
+  - env:
+    - VERSION=2015sp2
+  - env:
     - VERSION=2015sp3
   - env:
+    - VERSION=2015sp4
+  - env:
+    - VERSION=2015sp5
+  - env:
+    - VERSION=2015sp6
+  - env:
     - VERSION=2016sp1
+  - env:
+    - VERSION=2017
+  - env:
+    - VERSION=2018
 
 language: python
 sudo: required
