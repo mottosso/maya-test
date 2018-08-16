@@ -1,0 +1,16 @@
+matrix:
+  include:
+  - env:
+    - VERSION=2015sp3
+  - env:
+    - VERSION=2016sp1
+
+language: python
+sudo: required
+dist: trusty
+
+services:
+  - docker
+
+script:
+  - docker run --rm -v $(pwd):/repo --entrypoint mayapy mottosso/maya:${VERSION} run.py
