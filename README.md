@@ -6,20 +6,21 @@
 
 <br>
 
-### Usecases
-
-Use this project when you want to know whether, in each version of Maya..
-
-- [Is this workaround consistent?](https://github.com/mottosso/maya-test/pull/1)
-- [Does this bug occur?](https://github.com/mottosso/maya-test/pull/1)
-- [What is the result of `cmds.about(version=True)`?](https://github.com/mottosso/maya-test/pull/2)
-
 ### Usage
 
 The goal of this project is comparing the response of a single Python script in all current versions of Maya.
 
 1. [Edit `run.py`](https://github.com/mottosso/maya-test/edit/master/run.py)
 2. See results [here](https://travis-ci.org/mottosso/maya-test)
+
+### Examples
+
+I want to know whether, in each version of Maya..
+
+- [Is this workaround consistent?](https://github.com/mottosso/maya-test/pull/1)
+- [Does this bug occur?](https://github.com/mottosso/maya-test/pull/1)
+- [What is the result of `cmds.about(version=True)`?](https://github.com/mottosso/maya-test/pull/2)
+- ...
 
 #### Test with Nose
 
